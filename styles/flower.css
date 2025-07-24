@@ -1,0 +1,41 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Shared styles */
+.display-flex{
+    display: flex;
+}
+.gray-1{
+    color: #8987A1;
+}
+.gray-2{
+color: rgba(0, 0, 0, 0.50);
+}
+/* Header styles */
+/* nav styles */
+nav{
+    max-width: 1140px;
+    margin: 30px auto;
+
+}
+.navbar{
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-links{
+     list-style: none;
+     gap: 48px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.home-1{
+    color: black;
+}
