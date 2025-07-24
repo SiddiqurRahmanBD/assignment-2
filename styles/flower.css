@@ -4,10 +4,19 @@
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 /* Shared styles */
 .display-flex{
     display: flex;
@@ -15,13 +24,27 @@
 .gray-1{
     color: #8987A1;
 }
-.gray-2{
+.gray-2 {
 color: rgba(0, 0, 0, 0.50);
+font-size: 1.27rem;
+
+}
+.orange{
+    color: #E95A08;
+}
+.btn{
+    background-color:  #E95A08 ;
+    color: white;
+    padding: 19px 80px;
+    border: none;
+    font-weight: 600px;
+    font-size: 1rem;
 }
 /* Header styles */
 /* nav styles */
 nav{
     max-width: 1140px;
+    height: 71px;
     margin: 30px auto;
 
 }
@@ -38,4 +61,61 @@ nav{
 }
 .home-1{
     color: black;
+}
+/* Banner Styles */
+.banner{
+    /* position: absolute; */
+    max-width: 1140px;
+     margin: 120px auto;
+     flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+.banner-info{
+    display: block;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-description{
+   
+}
+/* Main Styles */
+/* Plants Styles */
+.plants{
+    /* max-width: 1140px; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    text-align: center; */
+    margin-top: 0 120px;
+}
+.plants-title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+/* card Style */
+.cards{
+    margin: 49px  150px;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 100px 20px;
+margin-bottom: 269px;
+}
+.card{
+    width: 270px;
+    height: 485px;
+}
+.flower-info{
+    padding: 30px 0;
+}
+.lily{
+ font-weight: 500;
+ font-size: 1.25rem;
+ /* padding-bottom: 20px; */
+}
+.usd{
+     font-weight: 700;
+ font-size: 1.25rem;
+ /* padding-bottom: 30px; */
 }
