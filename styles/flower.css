@@ -89,8 +89,10 @@ nav{
 .plants{
     max-width: 1140px; 
     justify-content: space-between;
-    text-align: center; */
     margin-top: 0 120px;
+}
+#plants-content{
+    text-align: center;
 }
 .plants-title{
     font-weight: 700;
@@ -152,5 +154,10 @@ align-items: center; */
 .flower-lover-description{
 
     padding: 20px 0;
+}
+/* Latest Deals */
+#latest-content{
+    text-align: center;
+    margin-bottom: 121px;
 }
 
