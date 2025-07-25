@@ -484,9 +484,10 @@ footer{
         padding: 19px 12px;
     }
 .footer-content{
+    display: flex;
     flex-direction: column; 
 
-    justify-items:center;
-    align-items: start;
+    justify-content:flex-start;
+    align-content: flex-start;
 }
 }
