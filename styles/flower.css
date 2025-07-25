@@ -244,6 +244,12 @@ width: 367px;
 .shop-now{
     color: white;
 }
+.shop-now-3{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: white;
+}
+
 /* Join Styles */
 .join{
     margin: 0 auto;
@@ -335,15 +341,19 @@ footer{
 
 @media screen and (max-width:576px) {
     
-    .nav{
-
-    }
+   .regular{
+    font-size: 0.85rem;
+   }
     .nav-item{
         display: none;
     }
 
     .banner{
         flex-direction: column-reverse;
+    }
+    .banner-title{
+    font-weight: 700;
+    font-size: 1.5rem;
     }
     .banner-info{
         /* text-align: center; */
@@ -352,6 +362,19 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         margin: 0 auto;
     }
+    .lily{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+     .usd{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .btn{
+        width: 100%;
+        padding: 19px 30.5px;
+    }
     #badge{
         display: none;
     }
@@ -359,25 +382,57 @@ footer{
         flex-direction: column;
 
     }
+    .flower-lover-title{
+       font-weight: 700;
+    font-size: 1.5rem; 
+    }
+    .plants-title{
+         font-weight: 700;
+    font-size: 1.5rem; 
+    }
     .layout{
-        display: none;
         flex-direction: column;
+    }
+    .bloom{
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    .ana{
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    .zabo{
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    .shop-now{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .shop-now-3{
+        font-weight: 600;
+        font-size: 1rem;
     }
     .join{
         width: 100%;
     }
-    .join-items{
+    /* .join-items{
         display: flex;
         width: 10%;
     }
     .join-info{
         width: 5%;
-    }
+    } */
     .join-title{
       font-size: 1.25rem;
     }
     input{
-        width: 5%;
+        width: 100%;
+         padding: 18px 60px 19px 20px 
+    }
+    .Subscribe{
+        width: 100%;
+        padding: 19px 12px;
     }
 .footer-content{
     flex-direction: column; 
