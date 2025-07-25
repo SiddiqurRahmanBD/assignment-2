@@ -192,9 +192,10 @@ align-items: center; */
 }
 .bloom-plant{
  background-image: url(../assets/deal-bloom.png);
+ background-color: rgba(0, 0, 0, 0.5);
+ background-blend-mode: darken;
  width: 70%;
- /* margin: auto; */
- width: 336px;
+ width: 367px;
  height: 206px;
  text-align: center;
  color: white;
@@ -209,6 +210,8 @@ align-items: center; */
 }
 .ana-plant{
  background-image: url(../assets/deal-ana.png);
+  background-color: rgba(0, 0, 0, 0.5);
+ background-blend-mode: darken;
  width: 30%; 
 width: 367px;
  height: 197px;
@@ -226,6 +229,8 @@ width: 367px;
 }
 .zabo-plant{
  background-image: url(../assets/deal-zabo.png);
+  background-color: rgba(0, 0, 0, 0.5);
+ background-blend-mode: darken;
  box-sizing: border-box;
  
  width: 100%; 
@@ -340,7 +345,24 @@ footer{
 }
 
 @media screen and (max-width:576px) {
-    
+    body{
+        /* padding: 0 16px; */
+    }
+    nav{
+        padding: 0 16px;
+    }
+    .plants{
+        padding: 0 16px;
+    }
+    .flower-lover-content{
+        padding: 0 16px;
+    }
+    .latest{
+        padding: 0 16px;
+    }
+    footer{
+        padding: 0 16px;
+    }
    .regular{
     font-size: 0.85rem;
    }
@@ -357,6 +379,10 @@ footer{
     }
     .banner-info{
         /* text-align: center; */
+        padding: 0 16px;
+    }
+    .banner-img{
+        width: 100%;
     }
     .cards{
         grid-template-columns: repeat(2, 1fr);
@@ -378,6 +404,11 @@ footer{
     #badge{
         display: none;
     }
+    .flower-store{
+        width: 100%;
+        width: 358px;
+        height: 396px;
+    }
     .flower-lover-content{
         flex-direction: column;
 
@@ -393,13 +424,28 @@ footer{
     .layout{
         flex-direction: column;
     }
+    .bloom-plant{
+          width: 100%;
+        width: 361px;
+        height: 184px;
+    }
     .bloom{
         font-weight: 700;
         font-size: 1.25rem;
     }
+    .ana-plant{
+          width: 100%;
+        width: 361px;
+        height: 184px;
+    }
     .ana{
         font-weight: 700;
         font-size: 1.25rem;
+    }
+    .zabo-plant{
+        width: 100%;
+        width: 361px;
+        height: 172px;
     }
     .zabo{
         font-weight: 700;
@@ -415,6 +461,8 @@ footer{
     }
     .join{
         width: 100%;
+        width: 393px;
+        height: 276px;
     }
     /* .join-items{
         display: flex;
@@ -424,6 +472,7 @@ footer{
         width: 5%;
     } */
     .join-title{
+        font-weight: 700;
       font-size: 1.25rem;
     }
     input{
